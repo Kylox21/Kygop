@@ -1,0 +1,466 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+background-color: #202225;
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/SegoeUI-Bold") format("truetype");
+}
+
+@font-face {
+  font-family: "SegoeUI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://fonts.animaapp.com/SegoeUI-Black") format("truetype");
+}
+
+@font-face {
+  font-family: "SegoeUI-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Semibold") format("truetype");
+}
+
+.main {
+  align-items: flex-start;
+  background-color: var(--shark);
+  display: flex;
+  height: 907px;
+  padding: 0 34px;
+  width: 1920px;
+}
+.main .animate-enter {
+  animation: animate-enter-frames 0.5s ease 0s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+.main .click-to-add-a-note {
+  color: var(--quick-silver);
+  font-family: "SegoeUI-Regular", Helvetica;
+  font-size: 15px;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  opacity: 0.68;
+  position: absolute;
+  top: 270px;
+  white-space: nowrap;
+}
+.main .ellipse-2 {
+  border-radius: 50px/49px;
+  height: 98px;
+  width: 100px;
+}
+.main .ellipse-4 {
+  background-color: var(--ocean-green-2);
+  border-radius: 11px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 22px;
+  left: 105px;
+  position: absolute;
+  top: 101px;
+  width: 22px;
+}
+.main .ellipse-5 {
+  background-color: var(--sonic-silver);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 685px;
+  position: absolute;
+  top: 62px;
+  width: 5px;
+}
+.main .ellipse-6 {
+  background-color: var(--sonic-silver);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 685px;
+  position: absolute;
+  top: 70px;
+  width: 5px;
+}
+.main .ellipse-7 {
+  background-color: var(--sonic-silver);
+  border-radius: 2.5px;
+  height: 5px;
+  left: 685px;
+  position: absolute;
+  top: 77px;
+  width: 5px;
+}
+.main .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22.5px;
+  min-height: 588px;
+  width: 706px;
+}
+.main .group-11 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/5fc4bd5eccec05a392e155b8/releases/6073004a08400d11b65301e7/img/mask-group-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 98px;
+  left: 32px;
+  min-width: 100px;
+  position: absolute;
+  top: 29px;
+}
+.main .group-14 {
+  height: 501px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 725px;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+.main .group-16 {
+  background-color: var(--ocean-green);
+  border-radius: 5px;
+  height: 39px;
+  left: 488px;
+  pointer-events: auto;
+  position: absolute;
+  top: 59px;
+  transition: all 0.2s ease;
+  width: 185px;
+}
+.main .group-16:hover {
+  filter: grayscale(100%);
+}
+.main .group-19 {
+  border-radius: 4px;
+  height: 43px;
+  left: 34px;
+  pointer-events: auto;
+  position: absolute;
+  top: 373px;
+  transition: all 0.2s ease;
+  width: 233px;
+}
+.main .group-19:hover {
+  filter: grayscale(100%);
+}
+.main .group-20 {
+  border-radius: 4px;
+  height: 43px;
+  left: 294px;
+  pointer-events: auto;
+  position: absolute;
+  top: 373px;
+  transition: all 0.2s ease;
+  width: 233px;
+}
+.main .group-20:hover {
+  filter: grayscale(100%);
+}
+.main .icon-awesome-youtube {
+  height: 19px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 29px;
+}
+.main .icon-ionic-md-open {
+  height: 14px;
+  left: 206px;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  width: 14px;
+}
+.main .icon-ionic-md-open-1 {
+  height: 14px;
+  left: 206px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 14px;
+}
+.main .kygo {
+  left: 148px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+}
+.main .kygo-1 {
+  letter-spacing: 0px;
+  line-height: 44px;
+  min-height: 119px;
+  white-space: nowrap;
+}
+.main .line-2 {
+  height: 3px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 147px;
+  width: 725px;
+}
+.main .line-3 {
+  height: 2px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 333px;
+  width: 680px;
+}
+.main .mutual-friends {
+  left: 303px;
+  letter-spacing: 0px;
+  line-height: 17px;
+  position: absolute;
+  top: 176px;
+  white-space: nowrap;
+}
+.main .mutual-servers {
+  left: 146px;
+  letter-spacing: 0px;
+  line-height: 17px;
+  position: absolute;
+  top: 176px;
+  white-space: nowrap;
+}
+.main .name {
+  left: 50px;
+  letter-spacing: 0px;
+  line-height: 17px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+.main .note {
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 14px;
+  position: absolute;
+  top: 242px;
+  white-space: nowrap;
+}
+.main .overlap-group {
+  height: 501px;
+  margin-left: 394px;
+  margin-top: 204px;
+  position: relative;
+  width: 729px;
+}
+.main .overlap-group1 {
+  height: 325px;
+  margin-top: 144px;
+  position: relative;
+  width: 706px;
+}
+.main .overlap-group2 {
+  height: 526px;
+  left: -9px;
+  position: relative;
+  top: -6px;
+  width: 743px;
+}
+.main .rectangle-13 {
+  height: 230px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 743px;
+}
+.main .rectangle-15 {
+  background-color: white;
+  height: 3px;
+  left: 33px;
+  position: absolute;
+  top: 216px;
+  width: 66px;
+}
+.main .rectangle-16 {
+  height: 308px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 218px;
+  width: 743px;
+}
+.main .rectangle-20 {
+  height: 24px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 24px;
+}
+.main .reddit {
+  left: 45px;
+  letter-spacing: 0px;
+  line-height: 17px;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+}
+.main .send-friend-request {
+  left: 26px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+}
+.main .text-1 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 110px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.main .text-2 {
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 37px;
+  pointer-events: auto;
+  position: absolute;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  top: 274px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.main .text-2:hover {
+  filter: grayscale(100%);
+}
+.main .text-3 {
+  left: 208px;
+  letter-spacing: 0px;
+  line-height: 13px;
+  position: absolute;
+  top: 49px;
+  white-space: nowrap;
+}
+.main .user-info {
+  left: 32px;
+  letter-spacing: 0px;
+  line-height: 17px;
+  position: absolute;
+  top: 176px;
+  white-space: nowrap;
+}
+@keyframes animate-enter-frames {
+  from {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.border-0-3px-dove-gray {
+  border: 0.3px solid var(--dove-gray);
+}
+.segoeui-black-shamrock-44px {
+  color: var(--shamrock);
+  font-family: "SegoeUI-Black", Helvetica;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+}
+.segoeui-black-white-110px {
+  color: white;
+  font-family: "SegoeUI-Black", Helvetica;
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 900;
+}
+.segoeui-bold-quick-silver-14px {
+  color: var(--quick-silver);
+  font-family: "SegoeUI-Bold", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.segoeui-bold-white-23px {
+  color: white;
+  font-family: "SegoeUI-Bold", Helvetica;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+}
+.segoeui-normal-blueberry-37px {
+  color: var(--blueberry);
+  font-family: "SegoeUI-Semibold", Helvetica;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+}
+.segoeui-normal-quick-silver-17px {
+  color: var(--quick-silver);
+  font-family: "SegoeUI-Semibold", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+.segoeui-normal-white-15px {
+  color: white;
+  font-family: "SegoeUI-Semibold", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.segoeui-normal-white-17px {
+  color: white;
+  font-family: "SegoeUI-Semibold", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+.segoeui-regular-normal-quick-silver-13px {
+  color: var(--quick-silver);
+  font-family: "SegoeUI-Regular", Helvetica;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.segoeui-regular-normal-white-17px {
+  color: white;
+  font-family: "SegoeUI-Regular", Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --blueberry: rgba(92, 133, 246, 1);
+  --dove-gray: rgba(112, 112, 112, 1);
+  --ocean-green: rgba(67, 181, 129, 1);
+  --ocean-green-2: rgba(64, 172, 123, 1);
+  --quick-silver: rgba(162, 164, 168, 1);
+  --shamrock: rgba(49, 217, 141, 1);
+  --shark: rgba(32, 34, 37, 1);
+  --sonic-silver: rgba(112, 114, 118, 1);
+}
+a {
+  text-decoration: none;
+  display: contents;
+}
